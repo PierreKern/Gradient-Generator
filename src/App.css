@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, app {
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.gradient h1 {
+  color: white;
+  text-decoration: underline;
+  margin-top: 15%;
+  margin-bottom: 5rem;
+}
+
+.colorPicker {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 6rem;
+}
+
+.random {
+  padding: 15px 20px;
+  background-color: rgb(100, 168, 168);
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  border-radius: 2%;
+  margin-bottom: 2rem;
+}
+
+.select {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #999;
+  font-size: 18px;
+  color: #1c87c9;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 4px 4px #ccc;
+}
+
+.output {
+  margin-top: 2rem;
+}
